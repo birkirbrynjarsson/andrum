@@ -19,16 +19,6 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="audio-player/audio-player.js"></script>
-    <script type="text/javascript">
-      AudioPlayer.setup("//birkir.is/andrum/audio-player/player.swf", {
-        width: 290,
-        initialvolume: 100,
-        transparentpagebg: "yes",
-        left: "000000",
-        lefticon: "FFFFFF",
-      });
-    </script>
   </head>
 
   <body id="music">
@@ -124,22 +114,36 @@
               >.</span
             >
           </p>
-          <p>
-            <span
-              >Below is an audio player containing all of the tracks on the
-              album.<br />Just click on the play button!</span
-            >
-            (Adobe flash is required)
-          </p>
-          <p id="audioplayer_1">Andvakar</p>
-          <script type="text/javascript">
-            AudioPlayer.embed("audioplayer_1", {
-              soundFile:
-                "//birkir.is/andrum/music/andvakar/01-andvakar.mp3,//birkir.is/andrum/music/andvakar/02-nozinan.mp3,//birkir.is/andrum/music/andvakar/03-report.mp3,//birkir.is/andrum/music/andvakar/04-hugurinnReikar.mp3,//birkir.is/andrum/music/andvakar/05-pictures.mp3,//birkir.is/andrum/music/andvakar/06-moab.mp3",
-              titles: "Andvakar,Nozinan,Report,Hugurinn Reikar,Pictures,Móab",
-              artists: "Andrúm,Andrúm,Andrúm,Andrúm,Andrúm,Andrúm",
-            });
-          </script>
+          <p><span>Listen to the tracks below.</span></p>
+          <div class="audio-tracks">
+            <p>1. Andvakar</p>
+            <audio controls preload="none">
+              <source src="music/andvakar/01-andvakar.mp3" type="audio/mpeg" />
+            </audio>
+            <p>2. Nozinan</p>
+            <audio controls preload="none">
+              <source src="music/andvakar/02-nozinan.mp3" type="audio/mpeg" />
+            </audio>
+            <p>3. Report</p>
+            <audio controls preload="none">
+              <source src="music/andvakar/03-report.mp3" type="audio/mpeg" />
+            </audio>
+            <p>4. Hugurinn Reikar</p>
+            <audio controls preload="none">
+              <source
+                src="music/andvakar/04-hugurinnReikar.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <p>5. Pictures</p>
+            <audio controls preload="none">
+              <source src="music/andvakar/05-pictures.mp3" type="audio/mpeg" />
+            </audio>
+            <p>6. Móab</p>
+            <audio controls preload="none">
+              <source src="music/andvakar/06-moab.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
         </article>
 
         <article class="article">
@@ -193,24 +197,53 @@
             </li>
           </ul>
 
-          <p>
-            <span
-              >Below is an audio player containing all of the tracks on the
-              album.<br />Just click on the play button!</span
-            >
-            (Adobe flash is required)
-          </p>
-          <p id="audioplayer_2">Gott Andrúm</p>
-          <script type="text/javascript">
-            AudioPlayer.embed("audioplayer_2", {
-              soundFile:
-                "//birkir.is/andrum/music/gottAndrum/01-intro.mp3,//birkir.is/andrum/music/gottAndrum/02-2001.mp3,//birkir.is/andrum/music/gottAndrum/03-outro.mp3,//birkir.is/andrum/music/gottAndrum/04-thoughts.mp3,//birkir.is/andrum/music/gottAndrum/05-theSong.mp3,//birkir.is/andrum/music/gottAndrum/06-therimaKassish.mp3,//birkir.is/andrum/music/gottAndrum/07-theLast.mp3,//birkir.is/andrum/music/gottAndrum/08-andrum.mp3",
-              titles:
-                "Intro,2001 Space Odyssey,Outro,Thoughts Of A Dying Man,The Song Before The Next,Therima Kassish,The Last Session,…AndRum",
-              artists:
-                "Andrúm,Andrúm,Andrúm,Andrúm,Andrúm,Andrúm,Andrúm,Andrúm",
-            });
-          </script>
+          <p><span>Listen to the tracks below.</span></p>
+          <div class="audio-tracks">
+            <p>1. Intro</p>
+            <audio controls preload="none">
+              <source src="music/gottAndrum/01-intro.mp3" type="audio/mpeg" />
+            </audio>
+            <p>2. 2001 Space Odyssey</p>
+            <audio controls preload="none">
+              <source src="music/gottAndrum/02-2001.mp3" type="audio/mpeg" />
+            </audio>
+            <p>3. Outro</p>
+            <audio controls preload="none">
+              <source src="music/gottAndrum/03-outro.mp3" type="audio/mpeg" />
+            </audio>
+            <p>4. Thoughts Of A Dying Man</p>
+            <audio controls preload="none">
+              <source
+                src="music/gottAndrum/04-thoughts.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <p>5. The Song Before The Next</p>
+            <audio controls preload="none">
+              <source
+                src="music/gottAndrum/05-theSong.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <p>6. Therima Kassish</p>
+            <audio controls preload="none">
+              <source
+                src="music/gottAndrum/06-therimaKassish.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <p>7. The Last Session</p>
+            <audio controls preload="none">
+              <source
+                src="music/gottAndrum/07-theLast.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <p>8. …AndRuM</p>
+            <audio controls preload="none">
+              <source src="music/gottAndrum/08-andrum.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
         </article>
       </div>
       <!--END Main-->

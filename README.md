@@ -6,11 +6,10 @@ This website was built as a school project at the University of Skövde in Swede
 
 ## Structure
 
-- `index.html`, `about.html`, `music.html`, `pictures.html`, `videos.html`, `contact.html`, `message.html` — site pages
-- `music/` — MP3s for the *Andvakar* and *Gott Andrúm* albums
+- `index.html`, `about.html`, `music.html`, `pictures.html`, `videos.html`, `contact.html` — site pages
+- `music/` — MP3s for the *Andvakar* and *Gott Andrúm* albums, played with native HTML5 `<audio>` on the music page
 - `pictures/` — photo galleries (including studio shots)
 - `css/`, `js/` — stylesheets and scripts
-- `audio-player/` — Flash/JS MP3 player used on the music page
 - `fancybox/` — jQuery FancyBox lightbox library used for the photo galleries
 
 ## Running locally
